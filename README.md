@@ -16,6 +16,7 @@ The pipeline synthesizes 1,000,000 rows of fleet GPS and sensor data, systematic
 * Generated a 1,000,000-row telematics dataset natively in Spark for blazing-fast execution.
 * **Features Include:** `truck_id`, `gps_ping_time`, `speed_kmh`, `engine_temp_c`, `fuel_efficiency_kml`, and `route_risk_score`.
 * *Intentionally injected real-world data corruption* (null values, negative speeds, sensor malfunctions) to simulate messy enterprise environments.
+<img width="1920" height="1020" alt="total number 1000000" src="https://github.com/user-attachments/assets/58fee2a1-8668-46bd-b2a7-7ad09d6f25b5" />
 
 ### 2. Transform (Data Cleaning & Feature Engineering)
 Built a transformation pipeline to sanitize the data without dropping the entire dataset:
